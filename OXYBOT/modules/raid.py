@@ -100,10 +100,10 @@ async def rraid(e):
 
         try:
             user_id = entity.id
-            if user_id in OXYGEN:
+            if user_id in NAKSH:
                 await e.reply("REPO OWNER HAI YE.")
             elif user_id == OWNER_ID:
-                await e.reply("BETA BAAP PE RAID NHI KRTE HAI....")
+                await e.reply("𝐅𝐔𝐂𝐊𝐄𝐑 𝐍𝐀𝐊𝐒𝐇  BAAP PE RAID NHI KRTE HAI....")
             elif user_id in SUDO_USERS:
                 await e.reply("= ISPE RAID MAT MARO.. !!...")
             else:
